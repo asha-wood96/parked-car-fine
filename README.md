@@ -26,7 +26,7 @@ in the output if the minutes parked didn't go over minutes purchased it will jus
 
 also it is shown in the program that a base fine is $25 for the first hour or part of an hour car is illegally parked 
 but not shown is that the fine is $10 for each additional hour or part of an hour a car is aprked illegally. 
-
+It also prints out hourly fine which is then added to create the total fine
 
 This program is a general template I followed in the section programming challenge "Parking Ticket Simulator" of chapter 14 in the textbook "starting out with c++ from control structures through objects" (8th ed.)
 
