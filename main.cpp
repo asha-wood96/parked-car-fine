@@ -338,13 +338,13 @@ int main()
         tickets[index] = pt1;
         index++;
     
-        for (int i = 0; i<index; i++)
-        {
+        //for (int i = 0; i<index; i++) 
+        //{
         
         cout << "Base Fine: $" << baseFine << endl;
-        cout << "Your hourly Fine $" << tickets[i] -> getHourlyFine() << endl;
-        cout << "Your total fine is: $" << tickets[i]->getFine() << endl << endl;
-        }
+        cout << "Your hourly Fine $" << tickets[index-1] -> getHourlyFine() << endl;
+        cout << "Your total fine is: $" << tickets[index-1]->getFine() << endl << endl;
+        //}
     }
    
     else
@@ -361,15 +361,15 @@ int main()
         tickets[index] = pt1;
         index++;
         
-        for (int i = 0; i<index; i++)
-        {
+       // for (int i = 0; i<index; i++)
+       // {
             
             cout << "Base Fine: $" << baseFine << endl;
-            cout << "Your hourly Fine $" << tickets[i] -> getHourlyFine() << endl;
-            cout << "Your total fine is: $" << tickets[i]->getFine() << endl << endl;
+            cout << "Your hourly Fine $" << tickets[index-1] -> getHourlyFine() << endl;
+            cout << "Your total fine is: $" << tickets[index-1]->getFine() << endl << endl;
             
            
-        }
+        //}
         
     }
 
@@ -384,14 +384,14 @@ pt1 = createParkingTicket(PM3, PC3, PO3);
         tickets[index] = pt1;
         index++;
         
-        for (int i = 0; i<index; i++){
+        //for (int i = 0; i<index; i++){
             
             cout << "Base Fine: $" << baseFine << endl;
-             cout << "Your hourly Fine $" << tickets[i] -> getHourlyFine() << endl;
-            cout << "Your total fine is: $" << tickets[i]->getFine() << endl << endl;
+             cout << "Your hourly Fine $" << tickets[index-1] -> getHourlyFine() << endl;
+            cout << "Your total fine is: $" << tickets[index-1]->getFine() << endl << endl;
         
 
-    }
+    //}
     }
     else
     {
