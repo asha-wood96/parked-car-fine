@@ -32,6 +32,8 @@ This program is a general template I followed in the section programming challen
 
 Copy and paste the program in an IDE to run the program and see results
 
+if you encounter a bug where it gives nonsense answer for parking ticket on the third car try running the program again to see if it ends up calculating it.
+
 
 
 
