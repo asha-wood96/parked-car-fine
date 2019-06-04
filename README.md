@@ -30,6 +30,8 @@ It also prints out hourly fine which is then added to create the total fine
 
 This program is a general template I followed in the section programming challenge "Parking Ticket Simulator" of chapter 14 in the textbook "starting out with c++ from control structures through objects" (8th ed.)
 
+Copy and paste the program in an IDE to run the program and see results
+
 
 
 
